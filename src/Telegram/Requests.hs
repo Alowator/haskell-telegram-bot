@@ -21,7 +21,7 @@ import Telegram.JsonDrop
 
 
 data SendMessageRequest = SendMessageRequest {
-    message_chat_id         :: Integer,
+    message_сhat_id         :: Integer,
     message_text            :: String,
     message_reply_markup    :: Maybe InlineKeyboardMarkup
 } deriving (Show, Generic)
